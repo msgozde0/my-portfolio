@@ -1,83 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-
-    <h1>Mustafa Said Gozde</h1>
-    <a href="#about">About</a>    
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-
+      <h1>Mustafa Said Gozde</h1>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </header>
 
     <section id="about">
-       
-        <h2>About Me</h2>
-        <p>Hello! I'm Mustafa Gozde, I'm currently a student and I'm interested in web technologies and programming to become
-         a software developer. Learning new technologies and developing projects is my passion. On this portfolio page you can
-         find my work and information about myself.</p>
-
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm Mustafa Gozde, I'm currently a student and I'm interested in
+        web technologies and programming to become a software developer.
+        Learning new technologies and developing projects is my passion. On this
+        portfolio page you can find my work and information about myself.
+      </p>
     </section>
 
     <section id="projects">
-       
-         <h2>My Projects</h2>
-        
-    </section>
-        
-    <section id= "contact">
+      <h2>My Projects</h2>
+      <div class="project">
+        <h3>LifeChoice Simulator</h3>
+        <button class="show-details-btn">Show Details</button>
+        <div class="details" style="display: none">
+          <p>
+            <a
+              href="https://msgozde0.github.io/LifeChoiceSimulator/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LifeChoice Simulator
+            </a>
+          </p>
+        </div>
+      </div>
 
-        <h2>Contact</h2>
-    
+      <div class="project">
+        <h3>Project 2</h3>
+        <button class="show-details-btn">Show Details</button>
+        <div class="details" style="display: none">
+          <p>Coming soon</p>
+        </div>
+      </div>
     </section>
-        
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="contactForm">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="5"></textarea><br /><br />
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <p id="formMessage" style="color: red"></p>
+    </section>
 
     <footer class="footer">
-         <p>© Mustafa Gozde 2025 </p>
+      <p>© Mustafa Gozde 2025</p>
     </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
+    <script src="script.js" defer></script>
+  </body>
 </html>

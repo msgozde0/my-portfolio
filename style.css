@@ -25,7 +25,7 @@ nav ul {
 }
 
 nav ul li {
-  display: inline;/*ensures that the list items (links) are displayed horizontally instead of stacked vertically*/
+  display: inline; /*ensures that the list items (links) are displayed horizontally instead of stacked vertically*/
 }
 
 nav ul li a {
@@ -37,7 +37,6 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
-
 
 section {
   padding: 60px 30px;
@@ -58,7 +57,7 @@ footer {
 header a {
   color: aliceblue;
 }
-header a:hover{
+header a:hover {
   color: bisque;
 }
 
@@ -82,4 +81,65 @@ header a:hover{
     font-size: 12px;
     padding: 8px;
   }
+}
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #335;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: bisque;
+  color: #335;
+}
+
+.project {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.project button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #335;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.project button:hover {
+  background-color: bisque;
+  color: #335;
+}
+.project button {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.details {
+  margin-top: 10px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 4px;
 }
